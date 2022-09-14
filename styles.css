@@ -1,11 +1,17 @@
+.body{
+    margin: none;
+    padding: none;
+}
 .header{
+    padding-left: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: top;
     overflow: hidden;
 }
 .animated{
     width: 500px;   
+    align-items: top;
     background-position: left;
     background-size: cover;
 }
@@ -17,21 +23,26 @@
    -o-animation: myname 1.7s both; /* Opera 12+ */
    animation: myname 1.7s both; /* IE 10+, Fx 29+ */
  } 
- 
+
 .large{
     font-family: system-ui;
     font-weight: 200;
+    padding-left: 15px;
+    margin: 0;
 }
 .title{
     font-family: system-ui;
-    padding-left: 10px;
+    align-content: bottom;
+    margin: 0;
+    padding-left: 8px;
+    padding-top: 5px;
 }
 
  /* Safari 4+ */
  @-webkit-keyframes myname {
    0% {
        opacity: 0;
-       -webkit-transform: translateX(-50px);
+       -webkit-transform: translateX(-25px);
    }
    100% {
        opacity: 1;
@@ -43,7 +54,7 @@
  @-moz-keyframes myname {
    0% {
        opacity: 0;
-       -moz-transform: translateX(-50px);
+       -moz-transform: translateX(-25px);
    }
    100% {
        opacity: 1;
@@ -55,7 +66,7 @@
  @-o-keyframes myname {
    0% {
        opacity: 0;
-       -o-transform: translateX(-50px);
+       -o-transform: translateX(-25px);
    }
    100% {
        opacity: 1;
@@ -67,7 +78,7 @@
  @keyframes myname {
    0% {
        opacity: 0;
-       transform: translateX(-50px);
+       transform: translateX(-25px);
    }
    100% {
        opacity: 1;
