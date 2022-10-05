@@ -1,0 +1,15 @@
+body{
+    font-family: system-ui;
+    margin: none;
+    padding: none;
+    padding-top: 5%;
+    height: 4000px;
+    background-color: white;
+    background-image: url(../images/background.webp);
+    object-fit:none;
+}
+
+p {
+    margin: none;
+    padding: none;
+}

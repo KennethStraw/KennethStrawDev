@@ -1,0 +1,125 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-header-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    border: solid 1px black;
+    border-width: 0px 0px 2px 0px;
+    box-shadow: 0px -1px 20px #888888;
+    background-color: white;
+}
+
+.animated-header-container{
+    display: flex;
+    align-items: top;
+    background-position: left;
+    background-size: cover;
+    align-items:center;
+    width: 100%;
+}
+
+/* Fade in left */
+.myname{
+   -webkit-animation: myname 1.7s both; /* Safari 4+ */
+   -moz-animation: myname 1.7s both; /* Fx 5+ */
+   -o-animation: myname 1.7s both; /* Opera 12+ */
+   animation: myname 1.7s both; /* IE 10+, Fx 29+ */
+ } 
+
+.large{
+    font-weight: 200;
+    padding-left: 15px;
+    margin: 0;
+}
+.title{
+    align-content: bottom;
+    margin: 0;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+
+.rightsection {
+    padding-right: 1%; 
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+/* Safari 4+ */
+@-webkit-keyframes myname {
+0% {
+    opacity: 0;
+    -webkit-transform: translateX(-25px);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+}
+}
+
+/* Fx 5+ */
+@-moz-keyframes myname {
+0% {
+    opacity: 0;
+    -moz-transform: translateX(-25px);
+}
+100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+}
+}
+
+/* Opera 12+ */
+@-o-keyframes myname {
+0% {
+    opacity: 0;
+    -o-transform: translateX(-25px);
+}
+100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+}
+}
+
+/* IE 10+, Fx 29+ */
+@keyframes myname {
+0% {
+    opacity: 0;
+    transform: translateX(-25px);
+}
+100% {
+    opacity: 1;
+    transform: translateX(0);
+}
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px 30px;
+    font-size: 24px;
+    border: solid 1px black;
+    border-width: 0px 0px 2px 0px;
+    box-shadow: 0px -1px 20px #888888;
+    background-color: white;
+}
+
+.selector {
+    color: black;
+    text-decoration: none;
+}
+
+.selector:hover {
+    cursor: pointer;
+}
