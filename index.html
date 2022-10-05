@@ -4,13 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/generalstyles.css">
+    <link rel="stylesheet" href="styles/headerstyles.css">
+    <link rel="stylesheet" href="styles/homestyles.css">
     <title>Kenneth Straw DevsiteS</title>
 </head>
     <body>
-        <div class="animated header">
-            <h1 class="myname large">Kenneth Straw</h1>
-            <p class="myname title">Software Engineer, Developer</p>
+        <header class="header-container">
+            <div class="top-header-sections">
+                <div class="leftsection">
+                    <div class="animated-header-container">
+                        <div class="name-container"><h1 class="myname large">Kenneth Straw</h1></div>
+                        <div class="nametitle-container"><p class="myname title">Software Engineer, Developer</p></div>
+                    </div>
+                </div>
+                <div class="rightsection">
+                    Welcome, Friend
+                </div>
+            </div>
+            <div class="bottom-header-sections">
+                <nav class="navbar">
+                    <div><a href = "#About" class="about selector">About</a></div>
+                    <div><a href = "#projects" class="projects selector" >Projects</a></div>
+                    <div><a href = "#github" class="github selector" >Github</a></div>
+                    <div><a href = "#kenthestraw" class="kenthestraw selector" >KenTheStraw</a></div>
+                </nav>
+            </div>
+        </header>
+
+        <div id = "about" class="home-container"> 
+            <div class="image-container">
+                <img src="images/kennethstraw.png" alt="" class="profile photo">
+                <div class="imagetext"> <span class="image-desc">A picture of me</span></div>
+            </div>
+            <div class="about-me">
+                Hi all whom are reading this. My name is Kenenth Straw, like it says in the top left, 
+                and I am a Software Engineer/Developer. I created this website as a sort of
+                archive of my skills early in my career. <span class="Lehigh">Lehigh University</span> with a Bachelors of Science
+                in Computer Science and Business. <br><br>
+                Please feel free to view my linkedin and resume to the right.
+            </div>
+            <div class="link-images">
+                <a href="https://www.linkedin.com/in/kenneth-straw-418703179/"><img src="images/linkedinlogo.png" alt="" class="linkedin"></a>
+                <a href="https://www.linkedin.com/in/kenneth-straw-418703179/"><img src="images/document.png" alt="" class="resume"></a>
+            </div>
         </div>
     </body>
 </html>
