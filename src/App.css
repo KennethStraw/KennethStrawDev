@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+body { 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+}
+
+.EntryMessage {
+  font-family: 'Unbounded', cursive;
+  color: white;
+  font-size: 64px;
+  border: solid rgb(19, 19, 19);
+  background-color: rgb(27, 27, 27);
+  box-shadow: 0px 0px 20px rgb(85,85,85);
+  padding: 70px;
+  border-radius: 179px;
+}
+
+.EntryMessage:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(95,95,95);
+}
+
