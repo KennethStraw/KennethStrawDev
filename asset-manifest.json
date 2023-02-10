@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//plan4hours.com/static/css/main.b556948d.css",
+    "main.js": "//plan4hours.com/static/js/main.46f38f4c.js",
+    "index.html": "//plan4hours.com/index.html",
+    "main.b556948d.css.map": "//plan4hours.com/static/css/main.b556948d.css.map",
+    "main.46f38f4c.js.map": "//plan4hours.com/static/js/main.46f38f4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b556948d.css",
+    "static/js/main.46f38f4c.js"
+  ]
+}
